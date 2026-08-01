@@ -2,7 +2,7 @@ import torch
 import random
 import numpy as np
 from collections import deque
-from snake_game_rl_model import SnakeGameAI, Direction, Point
+from snake import SnakeGameAI, Direction, Point
 from rl_model import Linear_QNet, QTrainer
 
 MAX_MEMORY = 100_000
